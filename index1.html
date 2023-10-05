@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz Application</title>
+    <link rel="icon" href="favicon1.png">
+    <link rel="stylesheet" href="style1.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- start Quiz -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+    <img src="quiz1.png"
+    width="100%" height="100%">
+    
+    <!-- T&C Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Terms and Conditions for the Quiz(T&C)</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>20 seconds</span> to answer each question.</div>
+            <div class="info">2. Once you select your answer, it can't be undone.</div>
+            <div class="info">3. You can't select any option once timer runs out.</div>
+            <div class="info">4. You can't exit from the Quiz once started.</div>
+            <div class="info">5. Points will be alloted on the basis of number of correct answers.</div>
+            <div class="info">6. One mark will be alloted for each correct answer</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Back</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Online Quiz Application</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">20</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer>
+            <div class="total_que">
+                <!-- Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <!-- Questions -->
+    <script src="js/questions1.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script1.js"></script>
+
+</body>
+</html>
